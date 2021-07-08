@@ -24,7 +24,7 @@ router.get('/getCSList',(req,res,next)=>{
         res.json({"mysql":results});
     })   
 });
-/* get list of companies with shares sold*/
+/* get list of companies*/
 router.get('/getCList',(req,res,next)=>{
     let getQuery="SELECT name,value FROM companies";
     mysql.query(getQuery,(err,results,fields)=>{
