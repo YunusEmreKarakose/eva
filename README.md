@@ -1,6 +1,6 @@
-Every company has 100 share
-User buy share and pay to company
-User sell share to company
+Every company has 100 share. 
+User buy share and pay to company.
+User sell share to company.
 
 
 DB,Logger,Auth => [/db](https://github.com/YunusEmreKarakose/eva/tree/main/db)
